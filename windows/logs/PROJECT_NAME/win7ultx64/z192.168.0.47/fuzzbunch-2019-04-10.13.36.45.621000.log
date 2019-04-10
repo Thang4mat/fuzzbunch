@@ -1,0 +1,7 @@
+
+[*] Initializing Global State
+[+] Set TargetIp => 192.168.0.47
+[+] Set CallbackIp => 192.168.0.16
+
+[!] Redirection OFF
+[+] Set LogDir => C:\fuzzbunch\windows\Logs\PROJECT_NAME\win7ultx64\z192.168.0.47

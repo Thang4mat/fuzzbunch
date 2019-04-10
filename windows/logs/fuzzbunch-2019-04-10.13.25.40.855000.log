@@ -1,0 +1,18 @@
+
+--[ Version 3.5.1
+
+[*] Loading Plugins
+fb > echo Initializing Fuzzbunch v3.5.1
+[*] Initializing Fuzzbunch v3.5.1
+fb > echo Adding Global Variables
+[*] Adding Global Variables
+fb > setg ResourcesDir C:\fuzzbunch\windows\Resources
+[+] Set ResourcesDir => C:\fuzzbunch\windows\Resources
+fb > setg Color True
+[+] Set Color => True
+fb > setg ShowHiddenParameters False
+[+] Set ShowHiddenParameters => False
+fb > setg NetworkTimeout 60
+[+] Set NetworkTimeout => 60
+fb > setg LogDir C:\fuzzbunch\windows\Logs\PROJECT_NAME
+[+] Set LogDir => C:\fuzzbunch\windows\Logs\PROJECT_NAME

